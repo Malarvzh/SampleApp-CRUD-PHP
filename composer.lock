@@ -8,7 +8,7 @@
     "packages": [
         {
             "name": "quickbooks/v3-php-sdk",
-            "version": "v4.0.6.1",
+            "version": "v6.2.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/intuit/QuickBooks-V3-PHP-SDK.git",
