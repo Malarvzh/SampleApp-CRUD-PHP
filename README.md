@@ -2,10 +2,6 @@
 
 # SampleApp-CRUD-PHP
 
-Please use this CRUD examples combined with the doc: https://intuit.github.io/QuickBooks-V3-PHP-SDK/
-
-You will find examples with using OAuth1/OAuth2 tokens, SendEmail, get Reports, DownloadPDF, etc in the doc.
-
 SampleApp-CRUD-PHP
 
 <p>Welcome to the Intuit Developer's PHP Sample App for CRUD operations.</p>
@@ -41,8 +37,11 @@ In order to successfully run this sample app you need a few things:
 
 ## First Use Instructions
 
-1. Clone the GitHub repo to your computer.
-2. Update your OAuth 2 tokens
+1. Clone the GitHub repo to your computer
+2. Check and update latest PHP SDK version in composer.json file  
+3. Run `composer install` from project folder location in Terminal
+4. If you updated composer.json, run `composer update` (optional)
+5. Configure OAuth 2 tokens, Client ID, Client Secret, Company ID, and log file location in the centralized config.php file
 
 ## Running the code
 
